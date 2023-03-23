@@ -44,8 +44,8 @@ export class CuentasService {
             "numeroCuenta":"65506312062",
             "numeroClabe":"014680655063120623",
             "rfc":"ALP1702144R7",
-            "active":true,
-            "status":CuentaStatus.DONE
+            "active":false,
+            "status":CuentaStatus.PENDING
         },
         {
             "id":"4",
@@ -198,16 +198,6 @@ export class CuentasService {
             "status":CuentaStatus.PENDING
         },
         {
-            "id":"20",
-            "razonSocial": "Yaeta Development Group SA de CV",
-            "banco": "Azteca",
-            "numeroCuenta":"",
-            "numeroClabe":"",
-            "rfc":"YDG170214DU5",
-            "active":false,
-            "status":CuentaStatus.PENDING
-        },
-        {
             "id":"21",
             "razonSocial": "Intelnes Capital Market SA de CV",
             "banco": "Santander",
@@ -318,16 +308,6 @@ export class CuentasService {
             "status":CuentaStatus.DONE
         },
         {
-            "id":"32",
-            "razonSocial": "Edge Factor SA de CV",
-            "banco": "Inbursa",
-            "numeroCuenta":"50063291003",
-            "numeroClabe":"036680500632910038",
-            "rfc":"EFA111118G21",
-            "active":true,
-            "status":CuentaStatus.DONE
-        },
-        {
             "id":"33",
             "razonSocial": "Cornejo SA de CV",
             "banco": "ASP Integra",
@@ -384,6 +364,36 @@ export class CuentasService {
             "numeroCuenta":"00118344957",
             "numeroClabe":"",
             "rfc":"STO210426GX8",
+            "active":true,
+            "status":CuentaStatus.DONE
+        },
+        {
+            "id":"39",
+            "razonSocial": "Interacciones Zavlin SA de CV",
+            "banco": "Intercam",
+            "numeroCuenta":"018980070022",
+            "numeroClabe":"136680189800700223",
+            "rfc":"IZA120217TF3",
+            "active":true,
+            "status":CuentaStatus.DONE
+        },
+        {
+            "id":"40",
+            "razonSocial": "Bidentes del Real Estate Sa de CV",
+            "banco": "Banorte",
+            "numeroCuenta":"1026075447",
+            "numeroClabe":"072680010260754479",
+            "rfc":"BRE170214UV4",
+            "active":false,
+            "status":CuentaStatus.DONE
+        },
+        {
+            "id":"41",
+            "razonSocial": "Bidentes del Real Estate Sa de CV",
+            "banco": "Bajio",
+            "numeroCuenta":"76111440201",
+            "numeroClabe":"030680900021034590",
+            "rfc":"BRE170214UV4",
             "active":true,
             "status":CuentaStatus.DONE
         },
