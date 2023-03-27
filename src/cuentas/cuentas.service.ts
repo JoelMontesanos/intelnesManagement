@@ -54,7 +54,7 @@ export class CuentasService {
             "numeroCuenta":"261470410201",
             "numeroClabe":"030680900019327947",
             "rfc":"ALP1702144R7",
-            "active":true,
+            "active":false,
             "status":CuentaStatus.DONE
         },
         {
