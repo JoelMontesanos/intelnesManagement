@@ -397,6 +397,16 @@ export class CuentasService {
             "active":true,
             "status":CuentaStatus.DONE
         },
+        {
+            "id":"42",
+            "razonSocial": "Aham Comercial SA de CV",
+            "banco": "Kuspit",
+            "numeroCuenta":"",
+            "numeroClabe":"653180003810182657",
+            "rfc":"ACO170214RI9",
+            "active":true,
+            "status":CuentaStatus.DONE
+        },
     ]
 
     getAllAccount(){
