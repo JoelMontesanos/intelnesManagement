@@ -244,7 +244,7 @@ export class CuentasService {
             "numeroCuenta":"4067220350",
             "numeroClabe":"021680040672203500",
             "rfc":"YAR141104631",
-            "active":true,
+            "active":false,
             "status":CuentaStatus.DONE
         },
         {
@@ -294,7 +294,7 @@ export class CuentasService {
             "numeroCuenta":"4067716621",
             "numeroClabe":"21680040677166200",
             "rfc":"EFA111118G21",
-            "active":true,
+            "active":false,
             "status":CuentaStatus.DONE
         },
         {
